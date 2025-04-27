@@ -50,9 +50,23 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_svg: ^2.0.10
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+
+# Configuration pour les icônes de l'application
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "../tiktok icons/tiktok.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "../tiktok icons/tiktok.png"
+  min_sdk_android: 21
+  # Amélioration de la qualité de l'icône
+  remove_alpha_ios: true # Supprime la transparence pour iOS
+  background_color_ios: "#000000" # Couleur de fond pour iOS
 
 # The following section is specific to Flutter packages.
 flutter:
