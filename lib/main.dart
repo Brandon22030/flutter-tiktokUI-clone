@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'screens/home_screen.dart';
+import 'screens/main_screen.dart';
 
 void main() {
   // Assurez-vous que les liaisons Flutter sont initialisées
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
           displayColor: Colors.white,
         ),
       ),
-      home: const HomeScreen(),
+      home: const MainScreen(),
     );
   }
 }
